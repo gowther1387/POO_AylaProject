@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SistemaCarro extends VendaDeCarro {
+public class SistemaCarro  implements VendasInterface {
     private Map <TipoMarca, String > Lamborghini = new HashMap<>();
     private Map <TipoMarca, String > Bugatti = new HashMap<>();
     private Map <TipoMarca, String > koenigsegg = new HashMap<>();

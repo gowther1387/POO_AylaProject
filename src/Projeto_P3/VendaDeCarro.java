@@ -38,12 +38,7 @@ public class VendaDeCarro extends JFrame {
         botaoBuga = new JButton(scaledBugaImg);
 
 
-        JPanel panelImagens = new JPanel(new GridLayout(1, 3)); // 1 linha, 2 colunas
-        panelImagens.add(linha1); // Adiciona a primeira imagem (Lambo)
-        panelImagens.add(linha1); // Adiciona a segunda imagem (Bugatti)
 
-
-        getContentPane().setLayout(new GridLayout(2, 1));
         getContentPane().setLayout(new GridLayout(3, 1)); // Define o layout da janela
         getContentPane().add(linha1);
         getContentPane().add(linha2);
